@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Science Tutorials</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="icon" href="https://www.freepngimg.com/thumb/science/31354-3-science-transparent.png">
+  
+  
+ 
+</head>
+<body>
+ 
+
+  <div class="loader_bg">
+    <div class="loader"></div>
+  </div>
+<div class="cont">
+  <div class="container">
+     <div class="nav-wrapper">
+       <div class="left-side">
+         <div class="nav-link-wrapper">
+              <a href="Home.html" class="active">Home</a>
+          </div>
+
+          <div class="nav-link-wrapper">
+               <a href="Join.html">Join Class</a>
+          </div>
+        </div>
+        
+         
+        <div class="right-side">
+          <div class="brand">
+               <h2>Hello Name </h2>
+            </div>
+        </div>
+  </div>
+
+   </div>
+  </div>
+  <div class="content">
+    <small>Welcome to</small> 
+    <h1> Online Science <br> Tutorials</h1>
+    
+  </div>
+
+ <div class="app-picture">
+     <img src="science.png">
+ </div>
+
+ <div class="bubbles">
+   <img src="bubble.png" >
+   <img src="bubble.png" >
+   <img src="bubble.png" >
+   <img src="bubble.png" >
+   <img src="bubble.png" >
+   <img src="bubble.png" >
+   <img src="bubble.png" >
+ </div>
+  
+ 
+ <script>
+   setTimeout(function(){
+     $('.loader_bg').fadeToggle();
+   },1500);
+ </script>
+
+
+ 
+ 
+<a href="chat.php" 
+class="doubt" onclick="this.classList.toggle('doubt--loading')"><h4>Ask doubts to your teacher</h4></a>
+   
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="HelpBot"
+  agent-id="0ff9f94d-5e64-4d75-ab32-2674d6dcc8bf"
+  language-code="en"
+></df-messenger>
+
+
+
+
+</body>
+</html>
+
+
